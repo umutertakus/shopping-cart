@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  width: 55%;
+  margin: auto;
+  max-width: 600px;
+}
+
+.App > h1 {
+  font-size: 22px;
+  background: #222;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.App > div > h2 {
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.book {
+  display: flex;
+  padding: 10px;
+  margin: 0 0 10px 0;
+  border: 1px solid gray;
+}
+
+.books {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.books button {
+  align-self: stretch;
+}
+
+.book img {
+  width: 200px;
+  align-self: flex-end;
+}
